@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+  
+  
+}
+
+.btn-primary{
+    background-color: chocolate;
+    border: none;
+}
+
+ol,ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header_section{
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.about_content h3{
+    color: #CFA670;
+    font-style:normal;
+    font-family: Kristi sans-serif;
+}
+
+.about_content p{
+    text-align: justify;
+    margin:10px 20px;
+}
+.about_content a{
+    color: #CFA670;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.hero_section{
+    /* background-image: url(../images/Mark_Lobo_Photography-Melbourne-Jam_Jar1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px; */
+   
+}
+.carousel-item img{
+    height: 100vh;
+}
+
+.hero_content h1{
+    margin-top: 195px;
+    color:#1A3853 ;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.hero_content p{
+    color:#1A3853 ;
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.card-design{
+    margin-bottom: 15px;
+}
+.card-design .card-title{
+    font-weight: 700;
+    color: crimson;
+}
+
+
+.card-design a{
+    background-color: #1A3853;
+    border: none;
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.1s;
+}
+
+.card-design a:hover{
+    background-color: crimson;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: coral;
+    color: #000;
+    font-weight: 700;
+}
+
+
+/* .contact_form .form-group input:focus{
+     display: none;
+} */
+
+
+.banner_inner_section{
+    background: url(../images/rest_inner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding: 30px 0px;
+ 
+}
+@media screen and (max-width:768px)  {
+    .banner_inner_section{
+     
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+        padding: 30px 0px;
+        background-position: center center;
+        width: 100%;
+     
+    }
+    .banner_inner_content{
+        margin-top: 40px;
+    }
+
+}
+.banner_inner_content{
+    margin-top: 100px;
+}
+
+.banner_inner_content h4{
+    color: #fff;
+}
+
+.banner_inner_content h4 a{
+    color: #fff;
+    text-decoration: none;
+}
